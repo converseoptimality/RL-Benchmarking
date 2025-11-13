@@ -23,3 +23,9 @@ Traditional RL benchmarking suffers from not knowing the true optimal performanc
   - `NUDEx`: Nonholonomic vehicle with dynamic extension (open-loop unstable)
   - Multi-agent coordination tasks
 - **📊 Certified Optimality**: Every benchmark comes with mathematically proven `(π*, V*)`
+
+## 🎯 NVDEx system
+
+
+Here we can see a few tests on the performance of the Vehicle system, with different starting positions and different hyper-parameters in the difficulty ladder
+<img width="1489" height="1589" alt="image" src="https://github.com/user-attachments/assets/984c3668-c465-48db-ab64-5a614825ae01" />
