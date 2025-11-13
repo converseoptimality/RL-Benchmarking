@@ -7,7 +7,7 @@ Official implementation of **"Benchmarking RL via Converse Optimality: Generatin
 
 ## 🎯 Why This Matters
 
-Traditional RL benchmarking suffers from not knowing the true optimal performance. Our method solves the *converse optimality problem* to generate environments where the optimal policy $\pi^{*}$ and value function $V^*$ are known exactly, allowing precise measurement of:
+Traditional RL benchmarking suffers from not knowing the true optimal performance. Our method solves the *converse optimality problem* to generate environments where the optimal policy `π*` and value function `V*` are known exactly, allowing precise measurement of:
 - **Optimality gaps**
 - **True regret**
 - **Sample efficiency**
