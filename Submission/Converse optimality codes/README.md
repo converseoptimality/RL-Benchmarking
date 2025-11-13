@@ -135,7 +135,7 @@ A custom multilayer perceptron (MLP) (`CustomMLP`) was used as the neural networ
 The following figures summarize the results of the experiment:
 
 * F-test plot comparing the distribution of rewards (please add description).
-![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/f_test_plot_Adam_RAdam_2.png) 
+![an example of the runs]([https://github.com/converseoptimality/RL-Benchmarking/blob/main/Submission/Converse%20optimality%20codes/GFX/f_test_plot_Adam_RAdam_2.png]) 
 * Kernel Density Estimate (KDE) plot visualizing the reward distributions for Adam and RAdam.
 ![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/kde_plot_Adam_RAdam_edited.svg)
 * Box plot comparing the final rewards obtained using Adam and RAdam optimizers.
