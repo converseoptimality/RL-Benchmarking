@@ -61,8 +61,9 @@ Together this creates a highly nonlinear, underactuated chain of rotating shafts
 ## 🚀 Quick Start
 
 ### Installation
-``` bash
-git clone https://github.com/aidagroup/publ2025-code-converse.git
+```bash
+git clone https://github.com/converseoptimality/RL-Benchmarking.git
+cd RL-Benchmarking
 python3 -m venv rl_opt_env
 source rl_opt_env/bin/activate  # Linux/MacOS
 # or .\rl_opt_env\Scripts\activate for Windows
