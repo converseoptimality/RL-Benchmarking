@@ -1,0 +1,25 @@
+# Benchmarking RL via Converse Optimality
+
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
+Official implementation of **"Benchmarking RL via Converse Optimality: Generating Systems with Known Optimal Policies"**. A novel framework for creating reinforcement learning benchmarks with **provably known optimal policies** and **analytical value functions**, enabling rigorous evaluation against ground truth.
+
+## 🎯 Why This Matters
+
+Traditional RL benchmarking suffers from not knowing the true optimal performance. Our method solves the *converse optimality problem* to generate environments where the optimal policy $\pi^{*}$ and value function $V^*$ are known exactly, allowing precise measurement of:
+- **Optimality gaps**
+- **True regret**
+- **Sample efficiency**
+- **Generalization performance**
+
+## ✨ Key Features
+
+- **🔍 Ground-Truth Evaluation**: Compare algorithms against certified optimal policies
+- **🎛️ Stochastic Control-Affine Systems**: Discrete-time, nonlinear systems with additive Gaussian noise
+- **📈 Tunable Difficulty**: Homotopy parameters control problem complexity while maintaining analytical optimality
+- **🏗️ Multiple Benchmark Families**:
+  - `ConverseArm-v0`: n-link planar robotic arm with realistic dynamics
+  - `NUDEx`: Nonholonomic vehicle with dynamic extension (open-loop unstable)
+  - Multi-agent coordination tasks
+- **📊 Certified Optimality**: Every benchmark comes with mathematically proven `(π*, V*)`
