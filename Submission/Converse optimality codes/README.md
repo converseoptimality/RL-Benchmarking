@@ -139,7 +139,7 @@ The following figures summarize the results of the experiment:
 * Kernel Density Estimate (KDE) plot visualizing the reward distributions for Adam and RAdam.
 ![an example of the runs](https://github.com/converseoptimality/RL-Benchmarking/blob/main/Submission/Converse%20optimality%20codes/GFX/kde_plot_Adam_RAdam_edited.svg)
 * Box plot comparing the final rewards obtained using Adam and RAdam optimizers.
-![an example of the runs](https://github.com/aidagroup/publ2025-code-converse/blob/main/GFX/box_plot_Adam_RAdam_Styled.svg "Box Plot for Adam and RAam with the final negative cost (reward)")
+![an example of the runs](https://github.com/converseoptimality/RL-Benchmarking/blob/main/Submission/Converse%20optimality%20codes/GFX/box_plot_Adam_RAdam_Styled.svg "Box Plot for Adam and RAam with the final negative cost (reward)")
 <a name="exp2"></a>
 ## Experiment 2 Details
 ### install new dependencies
