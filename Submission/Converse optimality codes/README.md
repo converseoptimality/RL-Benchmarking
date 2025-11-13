@@ -1,6 +1,6 @@
 # Generating Informative Benchmarks for Reinforcement Learning
 
-`publ2025-code-converse` contains **two demonstrations**, one of sensetivity testing, and the other of capabilities of problem generators.
+`Converse optimality codes` contains **two demonstrations**, one of sensetivity testing, and the other of capabilities of problem generators.
 
 ## 📋 Overview
 The first demonstration or experiment compares RAdam and Adam optimizers in reinforcement learning using converse optimality. The study employs dynamically generated control systems with multi-dimensional truncated Fourier series dynamics. System generation uses fixed seeds for reproducibility, while neural network initialization remains stochastic, enabling rigorous optimizer evaluation under controlled conditions.
@@ -19,7 +19,7 @@ For the N-crank demonstration:
 
 
 
-# publ2025-code-converse  🛠️⚙️🎞️  
+# Converse optimality codes 🛠️⚙️🎞️  
 
 > Symbolic N-crank benchmark & RL controllers (PPO | A2C | SAC | Optimal | u=0)
 
@@ -260,25 +260,5 @@ Scalars: episode reward, loss terms, learning rate
 Histograms: action and value distributions
 
 Graphs: policy & value networks
-
-
-
-<!-- Citation placeholder -->
-<section id="references">
-  <h2>Citation</h2>
-
-  ```
-@article{yamerenko2025generating,
-  title={Generating Informative Benchmarks for Reinforcement Learning},
-  author={Yamerenko, Grigory and Ibrahim, Sinan and Moreno-Mora, Francisco and Osinenko, Pavel and Streif, Stefan},
-  journal={IEEE Control Systems Letters},
-  year={2025},
-  publisher={IEEE}
-}
-```
-  <ul>
-    <!-- Add your citations here -->
-  </ul>
-</section>
 
 Happy experimenting! 🎞️🛠️
