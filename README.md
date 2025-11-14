@@ -5,9 +5,6 @@
 
 Official implementation of **"Benchmarking RL via Converse Optimality: Generating Systems with Known Optimal Policies"**. A novel framework for creating reinforcement learning benchmarks with **provably known optimal policies** and **analytical value functions**, enabling rigorous evaluation against ground truth.
 
-
-
-
 ## Motivations and objectives
 
 Traditional RL benchmarking suffers from not knowing the true optimal performance. Our method solves the *converse optimality problem* to generate environments where the optimal policy `π*` and value function `V*` are known exactly, allowing precise measurement of:
@@ -17,7 +14,18 @@ Traditional RL benchmarking suffers from not knowing the true optimal performanc
 - **Generalization performance**
 
 ### NVDEx system
+
+A converse–optimal benchmark family based on a uni￾cycle/differential–drive geometry with a dynamic extension of the input channels. The construction yields a locally open–loop unstable system whose optimal policy and value admit closed forms in the Quadratic–Gaussian (QG) specialization, enabling principled RL
+evaluation with tunable difficulty.
+
 ### Arm link system
+
+A serial `𝑛`-link planar arm with revolute joints, providing a clear physical interpretation.
+
+![uncontrolled](https://github.com/user-attachments/assets/518b1069-a046-4b7c-9197-dbae76044f1f)
+
+![controlled](https://github.com/user-attachments/assets/9277b4d9-df7f-4db9-97dc-728ed8ce18d4)
+
 
 ## Main features
 
