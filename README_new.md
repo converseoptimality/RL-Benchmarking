@@ -110,13 +110,7 @@ Optimal policy and optimal value are known analytically.
 
 <img width="1489" height="1590" src="https://github.com/user-attachments/assets/933a1ba4-3c23-4352-96d1-7d79de58f7c3">
 
-### Placeholder for additional NVDEx figures
-
-*(e.g., drift field visualization, trajectories for difficulty ladder)*
-
-```
-[Insert additional NVDEx figure here]
-```
+( add additional drift field visualization, trajectories for difficulty ladder)
 
 ---
 
@@ -135,11 +129,7 @@ This benchmark offers:
 ![uncontrolled](https://github.com/user-attachments/assets/518b1069-a046-4b7c-9197-dbae76044f1f)
 ![controlled](https://github.com/user-attachments/assets/9277b4d9-df7f-4db9-97dc-728ed8ce18d4)
 
-### Placeholder for additional arm figures
-
-```
-[Insert arm benchmark trajectories / value heatmaps here]
-```
+( add arm benchmark trajectories/value heatmaps)
 
 ---
 
@@ -237,10 +227,8 @@ and a convenience launcher:
 bash Submission/run_all.sh
 ```
 
-### Placeholder for additional training instructions
-
 ```
-[Insert training workflow for PPO/SAC/TD3 etc.]
+(add training workflow for PPO/SAC/TD3 etc)
 ```
 
 ---
@@ -257,9 +245,7 @@ bash Submission/run_all.sh
 
 ### Placeholder for additional experiment plots
 
-```
-[Insert learning curves, regret curves, Bellman error plots]
-```
+(add learning curves, regret curves etc
 
 ---
 
@@ -289,19 +275,6 @@ Run tests via:
 ```
 pytest Submission/tests/
 ```
-
----
-
-# **Planned Extensions**
-
-Future updates (post-review) will include:
-
-* full training suite (PPO, A2C, SAC, TD3)
-* multi-agent systems
-* Gymnasium API wrappers
-* hyperparameter configurations
-* notebook tutorials
-* statistical analysis utilities
 
 ---
 
