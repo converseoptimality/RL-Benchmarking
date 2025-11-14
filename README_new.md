@@ -130,7 +130,7 @@ This benchmark offers:
 * closed-form optimal policies
 * tunable difficulty via geometric parameters (swirl strength, conditioning, noise)
 
-### **Illustration (controlled vs uncontrolled)**
+### **Illustration (uncontrolled vs controlled)**
 
 ![uncontrolled](https://github.com/user-attachments/assets/518b1069-a046-4b7c-9197-dbae76044f1f)
 ![controlled](https://github.com/user-attachments/assets/9277b4d9-df7f-4db9-97dc-728ed8ce18d4)
@@ -201,7 +201,7 @@ env, oracle = registry.make("NUDEx_K1_easy_v1")
 
 ```
 git clone https://github.com/converseoptimality/RL-Benchmarking.git
-cd RL-Benchmarking
+cd RL-Benchmarking/Submission
 pip install -r requirements.txt
 ```
 
@@ -236,8 +236,6 @@ and a convenience launcher:
 ```
 bash Submission/run_all.sh
 ```
-
-More scripts can be added to `Submission/experiments/` later.
 
 ### Placeholder for additional training instructions
 
@@ -304,8 +302,6 @@ Future updates (post-review) will include:
 * hyperparameter configurations
 * notebook tutorials
 * statistical analysis utilities
-
-Placeholders are already included in the README to incorporate these seamlessly.
 
 ---
 
