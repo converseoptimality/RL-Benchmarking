@@ -8,7 +8,7 @@ Official implementation of **"Benchmarking RL via Converse Optimality: Generatin
 
 
 
-## 🎯 Motivations and objectives
+## Motivations and objectives
 
 Traditional RL benchmarking suffers from not knowing the true optimal performance. Our method solves the *converse optimality problem* to generate environments where the optimal policy `π*` and value function `V*` are known exactly, allowing precise measurement of:
 - **Optimality gaps**
@@ -16,28 +16,28 @@ Traditional RL benchmarking suffers from not knowing the true optimal performanc
 - **Sample efficiency**
 - **Generalization performance**
 
-### 🎯 NVDEx system
-### 🎯 Arm link system
+### NVDEx system
+### Arm link system
 
-## ✨ Key Features
+## Main features
 
-- **🔍 Ground-Truth Evaluation**: Compare algorithms against certified optimal policies
-- **🎛️ Stochastic Control-Affine Systems**: Discrete-time, nonlinear systems with additive Gaussian noise
-- **📈 Tunable Difficulty**: Homotopy parameters control problem complexity while maintaining analytical optimality
-- **🏗️ Multiple Benchmark Families**:
+- **Ground-truth evaluation**: Compare algorithms against certified optimal policies
+- **Stochastic control-affine systems**: Discrete-time, nonlinear systems with additive Gaussian noise
+- **Tunable difficulty**: Homotopy parameters control problem complexity while maintaining analytical optimality
+- **Multiple benchmark families**:
   - `ConverseArm-v0`: n-link planar robotic arm with realistic dynamics
   - `NUDEx`: Nonholonomic vehicle with dynamic extension (open-loop unstable)
   - Multi-agent coordination tasks
-- **📊 Certified Optimality**: Every benchmark comes with mathematically proven `(π*, V*)`
+- **Certified optimality**: Every benchmark comes with mathematically proven `(π*, V*)`
 
-## 🎯 NVDEx system
+## NVDEx system
 
 
 Here we can see a few tests on the performance of the Vehicle system, with different starting positions and different hyper-parameters in the difficulty ladder
 
 <img width="1489" height="1589" alt="image" src="https://github.com/user-attachments/assets/984c3668-c465-48db-ab64-5a614825ae01" />
 
-## 🎯 Arm link system
+## Arm link system
 
 Optimal control vs Uncontrolled
 <img width="1044" height="759" alt="image" src="https://github.com/user-attachments/assets/2087eeee-0373-4d55-ac26-494f148da720" />
