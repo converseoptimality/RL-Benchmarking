@@ -1,0 +1,33 @@
+id: LQR/doubleint/hard/v1
+family: LQR
+version: 1.0.0
+tags: [linear, lqr, unstable, oracle]
+state_dim: 2
+action_dim: 1
+dt: 0.05
+gamma: 0.99
+horizon: 300
+params:
+  A: [[1.0, 0.05], [0.0, 1.10]]
+  B: [[0.00125], [0.05]]
+  Q: [[5.0, 0.0], [0.0, 1.0]]
+  R: [[0.05]]
+noise:
+  process_std: 0.05
+constraints:
+  action_box: [-5.0, 5.0]
+  state_clip: null
+init:
+  mode: CRN
+  crn_seed_base: 7
+  sampler:
+    type: gaussian
+    mean: [1.0, 0.0]
+    cov: [[0.25, 0.0],[0.0, 0.25]]
+oracle:
+  has_optimal: true
+  action_api: a_star
+  value_api: V_star
+metrics:
+  primary: [return, opt_gap, regret]
+  secondary: [abs_bellman_residual]

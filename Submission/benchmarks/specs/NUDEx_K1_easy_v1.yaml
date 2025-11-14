@@ -1,0 +1,47 @@
+id: NUDEx/K1/easy/v1
+family: NUDEx
+version: 1.0.0
+tags: [nonholonomic, unstable, continuous, oracle, CRN-ready]
+state_dim: 5
+action_dim: 2
+dt: 0.1
+gamma: 0.99
+horizon: 700
+params:
+  K: 1
+  r_v: 1
+  r_w: 1
+  alpha: 0.04
+  kappa: 0.20
+  p: 0.5
+  rho_target: 1.001
+  weight_pose: 2.0
+  weight_v: 1.0
+  weight_w: 1.0
+  r_u_v: 0.4
+  r_u_w: 0.4
+noise:
+  sigma_pose: 0.0
+  sigma_v: 1e-4
+  sigma_w: 3e-5
+constraints:
+  act_limit: 2.0
+  obs_clip: null
+  no_rescale_R: false
+init:
+  mode: CRN
+  crn_seed_base: 7
+  sampler:
+    type: ring_pose
+    r_min: 0.07
+    r_max: 0.12
+    phi_std: 0.06
+    v0_std: 0.05
+    w0_std: 0.05
+oracle:
+  has_optimal: true
+  action_api: a_star_p
+  value_api: V_star
+metrics:
+  primary: [return, opt_gap, regret]
+  secondary: [abs_bellman_residual, violations, success_rate]
