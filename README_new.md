@@ -1,9 +1,3 @@
-Below is a **fully polished, publication-quality README** for your repository
-(**tone: scientific**, **figures: the ones you already included**, **extra placeholders added**).
-It assumes you will later add training scripts, but the README is already structured so you can simply drop them in.
-
----
-
 # **Benchmarking RL via Converse Optimality**
 
 *Official Repository — [https://github.com/converseoptimality/RL-Benchmarking](https://github.com/converseoptimality/RL-Benchmarking)*
@@ -88,8 +82,6 @@ RL-Benchmarking/
 └── README.md
 ```
 
-Additional training utilities can be added to `Submission/` or a new `experiments/` directory later.
-
 ---
 
 # **Benchmark Families**
@@ -117,8 +109,6 @@ The system is:
 Optimal policy and optimal value are known analytically.
 
 ### **Illustration**
-
-(as in your repo)
 
 <img width="1489" height="1590" src="https://github.com/user-attachments/assets/933a1ba4-3c23-4352-96d1-7d79de58f7c3">
 
@@ -337,19 +327,3 @@ If you use this repository or benchmark suite in your research, please cite the 
 A final BibTeX entry will be added upon publication.
 
 ---
-
-# **Contact**
-
-For questions, please open an issue or contact the authors via
-**[https://github.com/converseoptimality/RL-Benchmarking/issues](https://github.com/converseoptimality/RL-Benchmarking/issues)**
-
----
-
-If you'd like, I can also:
-
-✓ generate a **benchmark card template**
-✓ generate **API documentation** (Sphinx or Markdown)
-✓ reorganize directories into a more user-facing structure
-✓ create a **“reproduce paper figures” script**
-
-Just tell me what you prefer!
