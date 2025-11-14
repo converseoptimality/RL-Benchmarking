@@ -1,0 +1,22 @@
+{
+  "generated_at": "2025-11-14T11:39:08.340817Z",
+  "code": [
+    "converse_four_systems_with_disturbances.py"
+  ],
+  "math": [
+    "converse_four_systems_math.tex"
+  ],
+  "figures": [
+    "fig_S1_COST.pdf",
+    "fig_S1_COST.png",
+    "fig_S2_COST.pdf",
+    "fig_S2_COST.png",
+    "fig_S3_COST.pdf",
+    "fig_S3_COST.png",
+    "fig_S4_COST.pdf",
+    "fig_S4_COST.png"
+  ],
+  "how_to": [
+    "python3 code/converse_four_systems_with_disturbances_COST.py"
+  ]
+}
