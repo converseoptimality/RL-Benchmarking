@@ -110,8 +110,6 @@ Optimal policy and optimal value are known analytically.
 
 <img width="1489" height="1590" src="https://github.com/user-attachments/assets/933a1ba4-3c23-4352-96d1-7d79de58f7c3">
 
-( add additional drift field visualization, trajectories for difficulty ladder)
-
 ---
 
 ## **2. Converse Arm System**
@@ -129,7 +127,9 @@ This benchmark offers:
 ![uncontrolled](https://github.com/user-attachments/assets/518b1069-a046-4b7c-9197-dbae76044f1f)
 ![controlled](https://github.com/user-attachments/assets/9277b4d9-df7f-4db9-97dc-728ed8ce18d4)
 
-( add arm benchmark trajectories/value heatmaps)
+<img width="1218" height="432" alt="fig_optgap_heatmaps_grid (2)" src="https://github.com/user-attachments/assets/0fad03fd-02f1-48f7-8187-20ae695d199a" />
+<img width="3904" height="1439" alt="image" src="https://github.com/user-attachments/assets/93a68d57-67b6-4384-b275-6dd5c560f767" />
+
 
 ---
 
@@ -243,9 +243,9 @@ bash Submission/run_all.sh
 
 <img width="1044" height="759" src="https://github.com/user-attachments/assets/2087eeee-0373-4d55-ac26-494f148da720" />
 
-### Placeholder for additional experiment plots
+### Additional data from experiments
 
-(add learning curves, regret curves etc
+<img width="892" height="397" alt="Без имени" src="https://github.com/user-attachments/assets/05a2c2a1-961d-4ee5-9c08-5cf401cfaacd" />
 
 ---
 
