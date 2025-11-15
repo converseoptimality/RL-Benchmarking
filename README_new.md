@@ -227,10 +227,6 @@ and a convenience launcher:
 bash Submission/run_all.sh
 ```
 
-```
-(add training workflow for PPO/SAC/TD3 etc)
-```
-
 ---
 
 # **Results**
