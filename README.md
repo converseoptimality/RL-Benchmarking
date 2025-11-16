@@ -49,7 +49,7 @@ It creates RL environments with **certified ground-truth**, ideal for robust ben
 ```
 RL-Benchmarking/
 │
-├── Submission/
+├── Code/
 │   ├── benchmarks/                 # Benchmark families + registry
 │   │   ├── envs/
 │   │   │   ├── lqr_env.py          # LQR-type baseline environment
@@ -179,7 +179,7 @@ Benchmarks use:
 Benchmarks can be instantiated from a single name:
 
 ```python
-from Submission.benchmarks import registry
+from Code.benchmarks import registry
 env, oracle = registry.make("NUDEx_K1_easy_v1")
 ```
 
@@ -191,7 +191,7 @@ env, oracle = registry.make("NUDEx_K1_easy_v1")
 
 ```
 git clone https://github.com/converseoptimality/RL-Benchmarking.git
-cd RL-Benchmarking/Submission
+cd RL-Benchmarking/Code
 pip install -r requirements.txt
 ```
 
@@ -200,7 +200,7 @@ pip install -r requirements.txt
 ## **Using a Benchmark**
 
 ```python
-from Submission.benchmarks import registry
+from Code.benchmarks import registry
 
 env, oracle = registry.make("NUDEx_K1_easy_v1")
 
@@ -218,13 +218,13 @@ obs, reward, done, info = env.step(a_star)
 The repository includes an example GPU training script:
 
 ```
-python Submission/train_baselines_arm_gpu.py
+python Code/train_baselines_arm_gpu.py
 ```
 
 and a convenience launcher:
 
 ```
-bash Submission/run_all.sh
+bash Code/run_all.sh
 ```
 
 ---
@@ -247,7 +247,7 @@ bash Submission/run_all.sh
 
 # **Dataset**
 
-The `Submission/dataset/` directory provides:
+The `Code/dataset/` directory provides:
 
 * benchmark metadata & manifest
 * four canonical systems (math + code)
@@ -269,7 +269,7 @@ Basic sanity tests validate that each benchmark:
 Run tests via:
 
 ```
-pytest Submission/tests/
+pytest Code/tests/
 ```
 
 ---
