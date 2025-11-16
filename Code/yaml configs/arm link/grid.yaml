@@ -1,0 +1,17 @@
+# configs/serial_arm/grid.yaml
+grid:
+  n_links: [4, 9, 12, 19]
+  p: [0.50, 0.60, 0.80]        # control-strength continuation
+  seeds: [7, 11]
+  algos: [PPO, A2C, SAC, TD3, DDPG]
+budgets:
+  total_steps: 300000          # all algos in this suite
+num_envs:
+  default: 1
+devices:
+  PPO: cpu
+  A2C: cpu
+  SAC: auto
+  TD3: auto
+  DDPG: auto
+log_root: runs_2

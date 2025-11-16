@@ -1,0 +1,12 @@
+# configs/serial_arm/global.yaml
+system: SerialArm
+gamma: 0.99
+horizon: 512
+tau: 0.03          # Q = tau * P in your paper/code
+r_u: 10.0          # R = r_u * I
+sigma_omega: 1.0e-3
+sigma_theta: 0.0   # not set in script; keep explicit for clarity
+normalize_obs_and_returns: true
+eval_every_steps: 10000
+reward_is_negative_cost: true
+init_mode: scheduled   # script doesn’t force fixed init here
