@@ -47,37 +47,75 @@ It creates RL environments with **certified ground-truth**, ideal for robust ben
 ## **Repository Structure**
 
 ```
-RL-Benchmarking/
-│
-├── Code/
-│   ├── benchmarks/                 # Benchmark families + registry
-│   │   ├── envs/
-│   │   │   ├── lqr_env.py          # LQR-type baseline environment
-│   │   │   └── nudex_env.py        # NUDEx nonlinear vehicle benchmark
-│   │   ├── specs/                  # YAML benchmark specifications
-│   │   ├── oracles.py              # Ground-truth (π*, V*) oracles
-│   │   └── registry.py             # Benchmark registration utilities
-│   │
-│   ├── cards/                      # Benchmark cards (metadata + plots)
-│   │   └── nudex_k1_easy_v1.md
-│   │
-│   ├── dataset/                    # Published benchmark dataset (Fig S1–S4)
-│   │   ├── code/
-│   │   ├── figures/
-│   │   ├── math/
-│   │   └── manifest.json
-│   │
-│   ├── tests/
-│   │   └── test_sanity.py          # Basic environment initialization tests
-│   │
-│   ├── converse_arm_env.py         # Converse-optimal arm dynamics
-│   ├── family.py                   # Benchmark family construction utilities
-│   ├── ReproducibilityChecklist.pdf
-│   ├── run_all.sh                  # Example workflow script
-│   └── train_baselines_arm_gpu.py  # Training script (GPU-backed)
-│
-├── LICENSE
-└── README.md
+Code/
+    ├── benchmarks/
+        ├── envs/
+            ├── __init__.py
+            ├── lqr_env.py
+            └── nudex_env.py
+        ├── specs/
+            ├── LQR_doubleint_hard_v1.yaml
+            └── NUDEx_K1_easy_v1.yaml
+        ├── __init__.py
+        ├── oracles.py
+        └── registry.py
+    ├── cards/
+        └── nudex_k1_easy_v1.md
+    ├── dataset/
+        ├── code/
+            └── converse_four_systems_with_disturbances.py
+        ├── figures/
+            ├── fig_S1_COST.pdf
+            ├── fig_S1_COST.png
+            ├── fig_S2_COST.pdf
+            ├── fig_S2_COST.png
+            ├── fig_S3_COST.pdf
+            ├── fig_S3_COST.png
+            ├── fig_S4_COST.pdf
+            └── fig_S4_COST.png
+        ├── math/
+            └── converse_four_systems_math.pdf
+        ├── manifest.json
+        └── README.md
+    ├── nvdex runs/
+        ├── CSVs/
+            └── summary_nudex.csv
+        ├── evaluation/
+            ├── plotting code/
+                └── plot_summary_nudex_suite.py
+            └── analyze_nudex_runs.py
+        ├── plotting code/
+            ├── plot_summary_nudex_suite.py
+            └── r
+        ├── nudex_env.py
+        ├── nudex_family.py
+        ├── resume_all_nudex_runs.sh
+        ├── run_all_nudex.sh
+        ├── run_nudex_k2_parallel_resume.sh
+        └── train_baselines_nudex.py
+    ├── tests/
+        └── test_sanity.py
+    ├── yaml configs/
+        ├── arm link/
+            ├── algorithms.yaml
+            ├── global.yaml
+            ├── grid.yaml
+            └── r
+        ├── nvdex/
+            ├── algorithms.yaml
+            ├── difficulties.yaml
+            ├── global.yaml
+            ├── r
+            └── schedules.yaml
+        └── r
+    ├── converse_arm_env.py
+    ├── family.py
+    ├── ReproducibilityChecklist (1).pdf
+    ├── requirements.txt
+    ├── run_all.sh
+    └── train_baselines_arm_gpu.py
+LICENSE
+README.md
 ```
 
 ---
