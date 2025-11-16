@@ -13,8 +13,8 @@ This repository contains the official implementation accompanying
 
 The project provides a **scientifically rigorous benchmarking framework** for reinforcement learning, built around *converse-optimality constructions* that generate dynamical systems with:
 
-* **provably known optimal policies** (π^*)
-* **closed-form optimal value functions** (V^*)
+* **provably known optimal policies** (`π*`)
+* **closed-form optimal value functions** (`V*`)
 * **stochastic nonlinear control-affine dynamics**
 * **tunable difficulty & conditioning**
 
@@ -264,8 +264,217 @@ and a convenience launcher:
 ```
 bash Code/run_all.sh
 ```
+---
+
+# **Reproducing the Paper**
+
+This section describes how to reproduce **all experiments, figures, and numerical results** from the paper.
+Experiments are divided into two benchmark families:
+
+1. **Converse arm system**
+2. **NVDEx system** (Nonholonomic Vehicle with Dynamic Extension)
+
+Both pipelines rely only on components included in the repository and require no external data.
 
 ---
+
+## **Prerequisites**
+
+Make sure the required packages are installed (as described higher).
+
+Ensure the repository root is on the Python path:
+
+```bash
+export PYTHONPATH=$PWD
+```
+
+GPU is recommended but not required for small-scale runs.
+
+---
+
+# **Reproducing the arm experiments**
+
+The arm benchmark experiments include:
+
+* Optimal vs uncontrolled rollouts
+* Optimality gap evaluations
+* Grid-based heatmaps
+* Difficulty-ladder trajectories
+* Figures used in the paper
+
+All arm benchmark configuration files are located in:
+
+```
+Code/yaml configs/arm link/
+```
+
+### **Run arm training**
+
+Use the main training script:
+
+```bash
+python Code/train_baselines_arm_gpu.py
+```
+
+This script reads the following configuration files:
+
+* `yaml configs/arm link/algorithms.yaml` — RL hyperparameters
+* `yaml configs/arm link/global.yaml` — global experimental settings
+* `yaml configs/arm link/grid.yaml` — grid rollout specification
+
+The script generates:
+
+```
+arm_results/
+    ├── logs/                # raw training logs
+    ├── models/              # trained policies
+    ├── eval/                # rollout CSVs
+    └── figs/                # learning curves, heatmaps, ideal vs uncontrolled
+```
+
+*(If directory names differ slightly on your local version, adjust accordingly.)*
+
+---
+
+### **Reproduce arm benchmark evaluation/plots**
+
+After training, generate all arm figures using:
+
+```bash
+bash Code/run_all.sh
+```
+
+This script performs:
+
+* RL policy evaluation
+* Optimality gap computation
+* Heatmap generation
+* All plots used in the paper
+
+This includes:
+
+* Controlled vs uncontrolled rollouts
+* State heatmaps
+* Optimality gap plots
+* Difficulty ladder rollouts
+
+---
+
+### **Reproduce arm and mathematical results**
+
+Supplementary ARM figures (S1–S4) can be regenerated via:
+
+```bash
+python Code/dataset/code/converse_four_systems_with_disturbances.py
+```
+
+Figures are written to:
+
+```
+Code/dataset/figures/
+```
+
+---
+
+# **Reproducing the NUDEx Experiments**
+
+NVDEx (NUDEx) experiments include:
+
+* Optimal vs uncontrolled trajectories
+* Difficulty ladder analysis
+* Heatmaps and cost distributions
+* Performance summaries across initial conditions
+* All supplementary NVDEx figures
+
+NUDEx-specific configuration files are located in:
+
+```
+Code/yaml configs/nvdex/
+```
+
+### **Run training for NUDEx**
+
+The core training script:
+
+```bash
+python Code/nvdex runs/train_baselines_nudex.py
+```
+
+Reads:
+
+* `yaml configs/nvdex/algorithms.yaml`
+* `yaml configs/nvdex/global.yaml`
+* `yaml configs/nvdex/difficulties.yaml`
+* `yaml configs/nvdex/schedules.yaml`
+
+and produces:
+
+```
+nvdex runs/
+    ├── CSVs/
+    └── evaluation/
+```
+
+---
+
+### Run the entire pipeline in parallel:
+
+```bash
+bash Code/nvdex runs/run_all_nudex.sh
+```
+
+---
+
+### **Generate NUDEx evaluation figures**
+
+After training is complete, run:
+
+```bash
+python Code/nvdex runs/evaluation/analyze_nudex_runs.py
+```
+
+and generate summary plots using:
+
+```bash
+python Code/nvdex runs/evaluation/plotting code/plot_summary_nudex_suite.py
+```
+
+This produces:
+
+```
+nvdex runs/CSVs/summary_nudex.csv
+```
+
+This directory contains:
+
+* Difficulty ladder performance
+* State and control trajectories
+* Heatmaps
+* All plots used in paper figures
+
+---
+
+# **Verification**
+
+Correctness can be checked via:
+
+```bash
+pytest Code/tests/test_sanity.py
+```
+
+This ensures:
+
+* correct environment construction
+* correct oracle (`π*`, `V*`) evaluations
+* consistent interface with RL algorithms
+
+---
+
+# **Notes**
+
+* All configurations are version-controlled via YAML files.
+* All figures from the paper correspond to the outputs of the scripts above.
+* No external assets are required.
 
 # **Results**
 
