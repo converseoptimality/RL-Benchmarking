@@ -1,0 +1,11 @@
+# configs/nudex/global.yaml
+system: NUDEx
+gamma: 0.99
+horizon: 700
+normalize_obs_and_returns: true
+fixed_init: true            # matches --fixed_init in all NUDEx runs
+eval_every_steps: 10000
+reward_is_negative_cost: true
+devices:
+  on_policy: cpu            # PPO/A2C
+  off_policy: auto          # "cuda" if available, else "cpu"

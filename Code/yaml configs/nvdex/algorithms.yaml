@@ -1,0 +1,54 @@
+# configs/nudex/algorithms.yaml
+# Stable-Baselines3 knobs exactly as in your scripts
+on_policy:
+  PPO:
+    total_steps: 2_000_000          # full grid; use 1_500_000 in resume_k2 profile below
+    num_envs: 8                     # full grid; use 6 in resume_k2
+    ppo_n_steps: 1024
+    ppo_batch_size: 256
+    ppo_n_epochs: 10
+    ppo_lr: 3.0e-4
+    ppo_ent_coef: 1.0e-4
+    ppo_clip_range: 0.2
+  A2C:
+    total_steps: 2_000_000          # full grid; use 1_500_000 in resume_k2
+    num_envs: 8                     # full grid; use 6 in resume_k2
+    a2c_n_steps: 20
+    a2c_lr: 3.0e-4
+    a2c_ent_coef: 1.0e-4
+
+off_policy:
+  SAC:
+    total_steps: 1_000_000          # full grid; use 700_000 in resume_k2
+    num_envs: 1                     # use 2 in resume_k2
+    off_batch_size: 256
+    off_buffer_size: 700000         # resume_k2 uses 200000
+    off_learning_starts: 10000
+    off_train_freq: 1
+    off_gradient_steps: 1
+    off_lr: 3.0e-4
+    off_tau: 0.005
+    sac_ent_coef: auto
+  TD3:
+    total_steps: 1_000_000          # full grid; use 700_000 in resume_k2
+    num_envs: 2
+    off_batch_size: 256
+    off_buffer_size: 700000         # resume_k2 uses 200000
+    off_learning_starts: 25000
+    off_train_freq: 1
+    off_gradient_steps: 1
+    off_lr: 3.0e-4
+    off_tau: 0.005
+    td3_policy_delay: 2
+    td3_target_noise: 0.2
+    td3_target_clip: 0.5
+  DDPG:
+    total_steps: 1_000_000          # full grid; use 700_000 in resume_k2
+    num_envs: 2
+    off_batch_size: 256
+    off_buffer_size: 700000         # resume_k2 uses 200000
+    off_learning_starts: 25000
+    off_train_freq: 1
+    off_gradient_steps: 1
+    off_lr: 3.0e-4
+    off_tau: 0.005

@@ -1,0 +1,42 @@
+# configs/nudex/schedules.yaml
+profiles:
+  resume_k2:          # your first script (ONLY K=2; DIFFS = easy, hard, insane; seeds 7, 11)
+    seeds: [7, 11]
+    grid:
+      K: [2]
+      r_v: [1]
+      r_w: [1]
+      difficulties: [easy, hard, insane]
+      algos_on:  [PPO, A2C]
+      algos_off: [TD3, DDPG, SAC]
+    overrides:
+      on_policy:
+        PPO: { total_steps: 1_500_000, num_envs: 6 }
+        A2C: { total_steps: 1_500_000, num_envs: 6 }
+      off_policy:
+        SAC: { total_steps: 700_000, num_envs: 2, off_buffer_size: 200000 }
+        TD3: { total_steps: 700_000, num_envs: 2, off_buffer_size: 200000 }
+        DDPG:{ total_steps: 700_000, num_envs: 2, off_buffer_size: 200000 }
+    device_policy:
+      on_policy: cpu
+      off_policy: auto  # cuda if available
+  full_grid:          # your second script (K in {1,2}; DIFFS includes medium; seeds 7,11,19)
+    seeds: [7, 11, 19]
+    grid:
+      K: [1, 2]
+      r_v: [1]
+      r_w: [1]
+      difficulties: [easy, medium, hard, insane]
+      algos_all: [PPO, SAC, A2C, TD3, DDPG]
+    skip:
+      # exactly the SKIP in your script:
+      - condition: "seed==7 and K==1 and algo in {PPO,A2C,SAC}"
+    device_policy:
+      PPO: cpu
+      A2C: cpu
+      SAC: auto
+      TD3: auto
+      DDPG: auto
+log_root:
+  resume_k2: runs_Nudex_1/runs_Nudex_1resume_k=2
+  full_grid: runs_Nudex_1/runs_Nudex_1resume

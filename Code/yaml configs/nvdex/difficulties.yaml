@@ -1,0 +1,7 @@
+# configs/nudex/difficulties.yaml
+# (p, alpha, kappa, sigma_pose, sigma_v, sigma_w, rho_target)
+presets:
+  easy:    { p: 0.5, alpha: 0.04, kappa: 0.20, sigma_pose: 0.0,   sigma_v: 1.0e-4, sigma_w: 3.0e-5, rho_target: 1.001 }
+  medium:  { p: 0.8, alpha: 0.06, kappa: 0.23, sigma_pose: 0.0,   sigma_v: 2.0e-4, sigma_w: 1.0e-5, rho_target: 1.002 }  # used in the full grid
+  hard:    { p: 1.0, alpha: 0.07, kappa: 0.27, sigma_pose: 1.0e-12, sigma_v: 3.0e-4, sigma_w: 2.0e-5, rho_target: 1.004 }
+  insane:  { p: 1.0, alpha: 0.08, kappa: 0.30, sigma_pose: 1.0e-6,  sigma_v: 5.0e-4, sigma_w: 5.0e-5, rho_target: 1.005 }
