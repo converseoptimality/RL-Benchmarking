@@ -1,0 +1,20 @@
+Saved heatmap_normgap.png
+Saved heatmap_regret.png
+Saved bar_normalized_optgap.png
+
+Normalized OptGap Summary:
+Algorithm  Mean         95% CI      
+PPO        2.4757       ± 1.0999
+SAC        0.9623       ± 0.3532
+TD3        4.6103       ± 2.3803
+DDPG       1.0660       ± 0.3489
+A2C        1.5985       ± 0.3710
+Saved bar_regret.png
+
+Regret Summary:
+Algorithm  Mean         95% CI      
+PPO        7.1414       ± 1.8618
+SAC        2.2869       ± 0.5288
+TD3        7.4789       ± 2.8488
+DDPG       2.5970       ± 0.6210
+A2C        4.3655       ± 0.5450

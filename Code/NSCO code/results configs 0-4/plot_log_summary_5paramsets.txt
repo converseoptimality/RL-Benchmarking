@@ -1,0 +1,45 @@
+With only 4 parameter sets:
+
+Saved heatmap_normgap.png
+Saved heatmap_regret.png
+Saved bar_normalized_optgap.png
+
+Normalized OptGap Summary:
+Algorithm  Mean         95% CI      
+PPO        2.4757       ± 1.0999
+SAC        0.9623       ± 0.3532
+TD3        4.6103       ± 2.3803
+DDPG       1.0660       ± 0.3489
+A2C        1.5985       ± 0.3710
+Saved bar_regret.png
+
+Regret Summary:
+Algorithm  Mean         95% CI      
+PPO        7.1414       ± 1.8618
+SAC        2.2869       ± 0.5288
+TD3        7.4789       ± 2.8488
+DDPG       2.5970       ± 0.6210
+A2C        4.3655       ± 0.5450
+
+Now with all 5 parameter sets:
+
+Saved heatmap_normgap.png
+Saved heatmap_regret.png
+Saved bar_normalized_optgap.png
+
+Normalized OptGap Summary:
+Algorithm  Mean         95% CI      
+PPO        5.1415       ± 3.0839
+SAC        1.0460       ± 0.3122
+TD3        5.0387       ± 1.9920
+DDPG       1.1779       ± 0.3770
+A2C        12.9749      ± 13.4978
+Saved bar_regret.png
+
+Regret Summary:
+Algorithm  Mean         95% CI      
+PPO        13.3927      ± 5.5946
+SAC        2.3930       ± 0.4332
+TD3        7.6414       ± 2.4249
+DDPG       2.6996       ± 0.5329
+A2C        22.0608      ± 18.0582
