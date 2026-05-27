@@ -1,0 +1,7 @@
+# Ignore tensorboard event files
+*.tfevents*
+events.out.tfevents*
+
+# Also ignore other large binary logs if desired
+*.monitor.csv
+*.log
