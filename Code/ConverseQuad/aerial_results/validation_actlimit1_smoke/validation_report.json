@@ -1,0 +1,46 @@
+{
+  "num_states": 20,
+  "seed": 0,
+  "family_params": {
+    "tau": 0.005,
+    "m": 1.0,
+    "Jx": 0.03,
+    "Jy": 0.03,
+    "Jz": 0.03,
+    "ell": 0.2,
+    "p": 0.7,
+    "eta": 0.005,
+    "noise_type": "gust",
+    "eps_gust": 0.1,
+    "gust_scale": 10.0
+  },
+  "spd": {
+    "min_eig_P": 0.2,
+    "min_eig_R": 0.1,
+    "min_eig_P_minus_Q": 0.19,
+    "passed": true
+  },
+  "S_orthogonality_max_error": 4.440892098500626e-16,
+  "energy_identity_max_residual": 1.0658141036401503e-14,
+  "oracle_bellman_max_residual": 1.0658141036401503e-14,
+  "phi_inverse_max_residual": 3.552713678800501e-15,
+  "oracle_raw_action_max_abs": 0.33292333649855604,
+  "oracle_action_inside_act_limit": true,
+  "env_checker": {
+    "requested": false,
+    "status": "skipped"
+  },
+  "rollout_sanity": {
+    "zero_final_norm": 2.2276280138561706,
+    "oracle_final_norm": 2.3218168666350927,
+    "oracle_vs_zero_final_ratio": 1.0422821279818764,
+    "passed": true
+  },
+  "thresholds": {
+    "S_orthogonality": 1e-10,
+    "energy_identity": 1e-07,
+    "oracle_bellman": 1e-06,
+    "phi_inverse": 1e-09
+  },
+  "passed": true
+}

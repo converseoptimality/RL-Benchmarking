@@ -1,0 +1,1120 @@
+[
+  {
+    "run": "PPO_quad3d_p0.5_eta0.1_sig0.01_gaussian_seed0_fixs0_20260514-212441",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gaussian",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 2,
+    "monitor_rewards": {
+      "first": -34508452704.92629,
+      "last": -1072075280222.2079,
+      "min": -1072075280222.2079,
+      "max": -34508452704.92629,
+      "mean": -553291866463.5671
+    },
+    "monitor_lengths": {
+      "first": 512.0,
+      "last": 512.0,
+      "mean": 512.0
+    },
+    "event_files": 1,
+    "scalars": {},
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "PPO_quad3d_p0.5_eta0.1_sig0.01_gaussian_seed0_fixs0_20260514-213622",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gaussian",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 0,
+    "event_files": 1,
+    "scalars": {},
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "PPO_quad3d_p0.5_eta0.1_sig0.01_gaussian_seed0_fixs0_20260514-213737",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gaussian",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 0,
+    "event_files": 1,
+    "scalars": {},
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "PPO_quad3d_p0.5_eta0.1_sig0.01_gaussian_seed0_fixs0_20260514-213811",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gaussian",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 1,
+    "monitor_rewards": {
+      "first": -34508452704.92629,
+      "last": -34508452704.92629,
+      "min": -34508452704.92629,
+      "max": -34508452704.92629,
+      "mean": -34508452704.92629
+    },
+    "monitor_lengths": {
+      "first": 512.0,
+      "last": 512.0,
+      "mean": 512.0
+    },
+    "event_files": 1,
+    "scalars": {},
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "PPO_quad3d_p0.5_eta0.1_sig0.01_gaussian_seed0_fixs0_20260514-214140",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gaussian",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 84,
+    "monitor_rewards": {
+      "first": -1004206564750.9244,
+      "last": -1005502397702.8287,
+      "min": -1009541325238.4069,
+      "max": -1003299110370.1737,
+      "mean": -1006482599007.9617
+    },
+    "monitor_lengths": {
+      "first": 31.0,
+      "last": 42.0,
+      "mean": 29.833333333333332
+    },
+    "event_files": 1,
+    "scalars": {
+      "rollout/ep_rew_mean": {
+        "n": 1,
+        "first": [
+          2048,
+          -1006539374592.0
+        ],
+        "last": [
+          2048,
+          -1006539374592.0
+        ]
+      },
+      "rollout/ep_len_mean": {
+        "n": 1,
+        "first": [
+          2048,
+          29.478260040283203
+        ],
+        "last": [
+          2048,
+          29.478260040283203
+        ]
+      },
+      "train/stage_cost": {
+        "n": 1,
+        "first": [
+          2048,
+          555.3784790039062
+        ],
+        "last": [
+          2048,
+          555.3784790039062
+        ]
+      },
+      "train/stage_cost_unclipped": {
+        "n": 1,
+        "first": [
+          2048,
+          555.3784790039062
+        ],
+        "last": [
+          2048,
+          555.3784790039062
+        ]
+      },
+      "train/state_norm": {
+        "n": 1,
+        "first": [
+          2048,
+          338.53265380859375
+        ],
+        "last": [
+          2048,
+          338.53265380859375
+        ]
+      },
+      "train/state_norm_unclipped": {
+        "n": 1,
+        "first": [
+          2048,
+          338.53265380859375
+        ],
+        "last": [
+          2048,
+          338.53265380859375
+        ]
+      },
+      "train/unhealthy_transition": {
+        "n": 1,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          2048,
+          0.0
+        ]
+      },
+      "train/terminated_by_safety": {
+        "n": 1,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          2048,
+          0.0
+        ]
+      }
+    },
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "PPO_quad3d_p0.5_eta0.1_sig0.01_gaussian_seed0_fixs0_20260514-214247",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gaussian",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 23,
+    "monitor_rewards": {
+      "first": -1101723692859.2827,
+      "last": -1116469610152.6794,
+      "min": -1137172335046.2642,
+      "max": -1097837794630.6069,
+      "mean": -1116971415258.7317
+    },
+    "monitor_lengths": {
+      "first": 99.0,
+      "last": 101.0,
+      "mean": 100.65217391304348
+    },
+    "event_files": 1,
+    "scalars": {
+      "rollout/ep_rew_mean": {
+        "n": 1,
+        "first": [
+          2048,
+          -1116792684544.0
+        ],
+        "last": [
+          2048,
+          -1116792684544.0
+        ]
+      },
+      "rollout/ep_len_mean": {
+        "n": 1,
+        "first": [
+          2048,
+          100.80000305175781
+        ],
+        "last": [
+          2048,
+          100.80000305175781
+        ]
+      },
+      "train/stage_cost": {
+        "n": 1,
+        "first": [
+          2048,
+          2889.595947265625
+        ],
+        "last": [
+          2048,
+          2889.595947265625
+        ]
+      },
+      "train/stage_cost_unclipped": {
+        "n": 1,
+        "first": [
+          2048,
+          2889.595947265625
+        ],
+        "last": [
+          2048,
+          2889.595947265625
+        ]
+      },
+      "train/state_norm": {
+        "n": 1,
+        "first": [
+          2048,
+          322.5799560546875
+        ],
+        "last": [
+          2048,
+          322.5799560546875
+        ]
+      },
+      "train/state_norm_unclipped": {
+        "n": 1,
+        "first": [
+          2048,
+          322.5799560546875
+        ],
+        "last": [
+          2048,
+          322.5799560546875
+        ]
+      },
+      "train/unhealthy_transition": {
+        "n": 1,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          2048,
+          0.0
+        ]
+      },
+      "train/terminated_by_safety": {
+        "n": 1,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          2048,
+          0.0
+        ]
+      }
+    },
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "PPO_quad3d_p0.7_eta0.005_sig0.01_gust_seed0_fixs0_20260514-222219",
+    "exists": true,
+    "has_final_model": true,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.7,
+      "eta": 0.005,
+      "sigma_noise": 0.01,
+      "noise_type": "gust",
+      "tau": 0.005,
+      "Jx": 0.03,
+      "Jy": 0.03,
+      "Jz": 0.03,
+      "ell": 0.2,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": 1000.0,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 684,
+    "monitor_rewards": {
+      "first": -230.970552,
+      "last": -28.872987,
+      "min": -247.460051,
+      "max": -26.783383,
+      "mean": -49.72072330994152
+    },
+    "monitor_lengths": {
+      "first": 512.0,
+      "last": 512.0,
+      "mean": 512.0
+    },
+    "event_files": 1,
+    "scalars": {
+      "rollout/ep_rew_mean": {
+        "n": 171,
+        "first": [
+          2048,
+          -241.34991455078125
+        ],
+        "last": [
+          350208,
+          -30.287324905395508
+        ]
+      },
+      "rollout/ep_len_mean": {
+        "n": 171,
+        "first": [
+          2048,
+          512.0
+        ],
+        "last": [
+          350208,
+          512.0
+        ]
+      },
+      "eval/mean_reward": {
+        "n": 35,
+        "first": [
+          10000,
+          -13.044512748718262
+        ],
+        "last": [
+          350000,
+          -9.752617835998535
+        ]
+      },
+      "train/stage_cost": {
+        "n": 206,
+        "first": [
+          2048,
+          0.2354329526424408
+        ],
+        "last": [
+          350208,
+          0.019291095435619354
+        ]
+      },
+      "train/stage_cost_unclipped": {
+        "n": 206,
+        "first": [
+          2048,
+          0.2354329526424408
+        ],
+        "last": [
+          350208,
+          0.019291095435619354
+        ]
+      },
+      "train/state_norm": {
+        "n": 206,
+        "first": [
+          2048,
+          1.2593116760253906
+        ],
+        "last": [
+          350208,
+          0.7070778012275696
+        ]
+      },
+      "train/state_norm_unclipped": {
+        "n": 206,
+        "first": [
+          2048,
+          1.2593116760253906
+        ],
+        "last": [
+          350208,
+          0.7070778012275696
+        ]
+      },
+      "train/unhealthy_transition": {
+        "n": 206,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          350208,
+          0.0
+        ]
+      },
+      "train/terminated_by_safety": {
+        "n": 206,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          350208,
+          0.0
+        ]
+      }
+    },
+    "classification": "has_practical_signals"
+  },
+  {
+    "run": "PPO_quad3d_p0.7_eta0.005_sig0.01_gust_seed1_fixs0_20260515-000841",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "PPO",
+      "total_steps": 350000,
+      "seed": 1,
+      "p": 0.7,
+      "eta": 0.005,
+      "sigma_noise": 0.01,
+      "noise_type": "gust",
+      "tau": 0.005,
+      "Jx": 0.03,
+      "Jy": 0.03,
+      "Jz": 0.03,
+      "ell": 0.2,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": 1000.0,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 371,
+    "monitor_rewards": {
+      "first": -241.105584,
+      "last": -35.802148,
+      "min": -247.367562,
+      "max": -32.131248,
+      "mean": -67.21437761725068
+    },
+    "monitor_lengths": {
+      "first": 512.0,
+      "last": 512.0,
+      "mean": 512.0
+    },
+    "event_files": 1,
+    "scalars": {
+      "rollout/ep_rew_mean": {
+        "n": 92,
+        "first": [
+          2048,
+          -243.31153869628906
+        ],
+        "last": [
+          188416,
+          -35.415489196777344
+        ]
+      },
+      "rollout/ep_len_mean": {
+        "n": 92,
+        "first": [
+          2048,
+          512.0
+        ],
+        "last": [
+          188416,
+          512.0
+        ]
+      },
+      "eval/mean_reward": {
+        "n": 18,
+        "first": [
+          10000,
+          -19.31581687927246
+        ],
+        "last": [
+          180000,
+          -15.972676277160645
+        ]
+      },
+      "train/stage_cost": {
+        "n": 110,
+        "first": [
+          2048,
+          0.2540586590766907
+        ],
+        "last": [
+          188416,
+          0.021330805495381355
+        ]
+      },
+      "train/stage_cost_unclipped": {
+        "n": 110,
+        "first": [
+          2048,
+          0.2540586590766907
+        ],
+        "last": [
+          188416,
+          0.021330805495381355
+        ]
+      },
+      "train/state_norm": {
+        "n": 110,
+        "first": [
+          2048,
+          0.5675153732299805
+        ],
+        "last": [
+          188416,
+          0.5242893695831299
+        ]
+      },
+      "train/state_norm_unclipped": {
+        "n": 110,
+        "first": [
+          2048,
+          0.5675153732299805
+        ],
+        "last": [
+          188416,
+          0.5242893695831299
+        ]
+      },
+      "train/unhealthy_transition": {
+        "n": 110,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          188416,
+          0.0
+        ]
+      },
+      "train/terminated_by_safety": {
+        "n": 110,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          188416,
+          0.0
+        ]
+      }
+    },
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "SAC_quad3d_p0.5_eta0.1_sig0.01_gaussian_seed0_fixs0_20260514-211711",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "SAC",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gaussian",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 19,
+    "monitor_rewards": {
+      "first": -7993840176.882843,
+      "last": -763686691881.9402,
+      "min": -763686691881.9402,
+      "max": -1855961594.016083,
+      "mean": -117200717257.92812
+    },
+    "monitor_lengths": {
+      "first": 512.0,
+      "last": 512.0,
+      "mean": 512.0
+    },
+    "event_files": 1,
+    "scalars": {
+      "rollout/ep_rew_mean": {
+        "n": 4,
+        "first": [
+          2048,
+          -89900580864.0
+        ],
+        "last": [
+          8192,
+          -72835604480.0
+        ]
+      },
+      "rollout/ep_len_mean": {
+        "n": 4,
+        "first": [
+          2048,
+          512.0
+        ],
+        "last": [
+          8192,
+          512.0
+        ]
+      },
+      "train/stage_cost": {
+        "n": 4,
+        "first": [
+          2048,
+          63415240.0
+        ],
+        "last": [
+          8192,
+          17588208.0
+        ]
+      },
+      "train/stage_cost_unclipped": {
+        "n": 4,
+        "first": [
+          2048,
+          63415240.0
+        ],
+        "last": [
+          8192,
+          17588208.0
+        ]
+      },
+      "train/state_norm": {
+        "n": 4,
+        "first": [
+          2048,
+          21385.01953125
+        ],
+        "last": [
+          8192,
+          6874.7763671875
+        ]
+      },
+      "train/state_norm_unclipped": {
+        "n": 4,
+        "first": [
+          2048,
+          21385.01953125
+        ],
+        "last": [
+          8192,
+          6874.7763671875
+        ]
+      },
+      "train/unhealthy_transition": {
+        "n": 4,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          8192,
+          0.0
+        ]
+      },
+      "train/terminated_by_safety": {
+        "n": 4,
+        "first": [
+          2048,
+          0.0
+        ],
+        "last": [
+          8192,
+          0.0
+        ]
+      }
+    },
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "SAC_quad3d_p0.5_eta0.1_sig0.01_gust_seed0_fixs0_20260514-205905",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "SAC",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gust",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 384,
+    "monitor_rewards": {
+      "first": -1002425692135.8169,
+      "last": -1002468545682.098,
+      "min": -1004232294077.0015,
+      "max": -1001190041010.9551,
+      "mean": -1002382253963.8134
+    },
+    "monitor_lengths": {
+      "first": 17.0,
+      "last": 18.0,
+      "mean": 16.919270833333332
+    },
+    "event_files": 1,
+    "scalars": {
+      "rollout/ep_rew_mean": {
+        "n": 96,
+        "first": [
+          70,
+          -1002848780288.0
+        ],
+        "last": [
+          6497,
+          -1002236805120.0
+        ]
+      },
+      "rollout/ep_len_mean": {
+        "n": 96,
+        "first": [
+          70,
+          17.5
+        ],
+        "last": [
+          6497,
+          16.940000534057617
+        ]
+      },
+      "train/stage_cost": {
+        "n": 96,
+        "first": [
+          70,
+          999999995904.0
+        ],
+        "last": [
+          6497,
+          999999995904.0
+        ]
+      },
+      "train/stage_cost_unclipped": {
+        "n": 96,
+        "first": [
+          70,
+          8219507200.0
+        ],
+        "last": [
+          6497,
+          6301730304.0
+        ]
+      },
+      "train/state_norm": {
+        "n": 96,
+        "first": [
+          70,
+          1000000.0
+        ],
+        "last": [
+          6497,
+          1000000.0
+        ]
+      },
+      "train/state_norm_unclipped": {
+        "n": 96,
+        "first": [
+          70,
+          1643921.625
+        ],
+        "last": [
+          6497,
+          1438698.375
+        ]
+      },
+      "train/unhealthy_transition": {
+        "n": 96,
+        "first": [
+          70,
+          1.0
+        ],
+        "last": [
+          6497,
+          1.0
+        ]
+      },
+      "train/terminated_by_safety": {
+        "n": 96,
+        "first": [
+          70,
+          1.0
+        ],
+        "last": [
+          6497,
+          1.0
+        ]
+      }
+    },
+    "classification": "incomplete_or_crashed"
+  },
+  {
+    "run": "SAC_quad3d_p0.5_eta0.1_sig0.01_gust_seed0_fixs0_20260514-211416",
+    "exists": true,
+    "has_final_model": false,
+    "has_meta": true,
+    "meta": {
+      "algo": "SAC",
+      "total_steps": 350000,
+      "seed": 0,
+      "p": 0.5,
+      "eta": 0.1,
+      "sigma_noise": 0.01,
+      "noise_type": "gust",
+      "tau": 0.05,
+      "Jx": 0.02,
+      "Jy": 0.02,
+      "Jz": 0.03,
+      "act_limit": 10.0,
+      "state_limit": 1000000.0,
+      "cost_limit": 1000000000000.0,
+      "unhealthy_penalty": null,
+      "fixed_init": true,
+      "normalize": true,
+      "learning_starts": 10000,
+      "train_freq": 64,
+      "gradient_steps": 64,
+      "batch_size": 512
+    },
+    "monitor_episodes": 218,
+    "monitor_rewards": {
+      "first": -1001996425083.0023,
+      "last": -1004057637987.7695,
+      "min": -1004218300597.978,
+      "max": -1001204819141.2053,
+      "mean": -1002333563640.86
+    },
+    "monitor_lengths": {
+      "first": 17.0,
+      "last": 19.0,
+      "mean": 16.857798165137616
+    },
+    "event_files": 1,
+    "scalars": {
+      "rollout/ep_rew_mean": {
+        "n": 54,
+        "first": [
+          67,
+          -1001997271040.0
+        ],
+        "last": [
+          3639,
+          -1002343497728.0
+        ]
+      },
+      "rollout/ep_len_mean": {
+        "n": 54,
+        "first": [
+          67,
+          16.75
+        ],
+        "last": [
+          3639,
+          16.739999771118164
+        ]
+      },
+      "train/stage_cost": {
+        "n": 54,
+        "first": [
+          67,
+          999999995904.0
+        ],
+        "last": [
+          3639,
+          999999995904.0
+        ]
+      },
+      "train/stage_cost_unclipped": {
+        "n": 54,
+        "first": [
+          67,
+          4854172160.0
+        ],
+        "last": [
+          3639,
+          4838590976.0
+        ]
+      },
+      "train/state_norm": {
+        "n": 54,
+        "first": [
+          67,
+          1000000.0
+        ],
+        "last": [
+          3639,
+          1000000.0
+        ]
+      },
+      "train/state_norm_unclipped": {
+        "n": 54,
+        "first": [
+          67,
+          1263357.875
+        ],
+        "last": [
+          3639,
+          1261239.625
+        ]
+      },
+      "train/unhealthy_transition": {
+        "n": 54,
+        "first": [
+          67,
+          1.0
+        ],
+        "last": [
+          3639,
+          1.0
+        ]
+      },
+      "train/terminated_by_safety": {
+        "n": 54,
+        "first": [
+          67,
+          1.0
+        ],
+        "last": [
+          3639,
+          1.0
+        ]
+      }
+    },
+    "classification": "incomplete_or_crashed"
+  }
+]
